@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Talib",
+        "rollno": "21F-9070",
+        "age": 22,
+        "gender": "M",
+        "registered_courses": [
+            "CS1001",
+            "CS1002",
+            "CS1006"
+        ]
+    },
+    {
+        "name": "Usman",
+        "rollno": "21F-9277",
+        "age": 24,
+        "gender": "M",
+        "registered_courses": []
+    },
+    {
+        "name": "Bajwa",
+        "rollno": "21F-9291",
+        "age": 23,
+        "gender": "M",
+        "registered_courses": [
+            "CS1002"
+        ]
+    },
+    {
+        "name": "Abdullah",
+        "rollno": "21F-9632",
+        "age": 23,
+        "gender": "M",
+        "registered_courses": []
+    }
+]

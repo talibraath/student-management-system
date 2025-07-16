@@ -154,7 +154,7 @@ def add_grades(students):
 
 def get_courses():
     global courses
-    print("Courses Already Offered")
+    print("Courses Offered")
     for c,n in courses.items():
         print(c,":",n)
 

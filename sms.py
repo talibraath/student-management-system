@@ -154,7 +154,7 @@ def add_grades(students):
 
 def get_courses():
     global courses
-    print("Courses Offered")
+    print("     Courses Offered")
     for c,n in courses.items():
         print(c,":",n)
 
@@ -213,7 +213,7 @@ def load(students):
         courses = json.load(file)
     with open("Students.json",'r') as file:
         student_ls = json.load(file)
-        print(student_ls)
+        #print(student_ls)
         for s in student_ls:
             student =  Student(s["name"],s["rollno"],s["age"],s["gender"])
             #print(s["name"])
@@ -256,7 +256,7 @@ def load(students):
 if __name__== "__main__":
     students = CustomList()
     while(True):
-        print("1.Add Student\n2.View All Student\n3.Add Course\n4.Enroll Student\n5.Mark Attendace\n6.Add Grades\n7.View Student Report\n8.Save Records\n9.Load Records\n10.Exit")
+        print("1.Add Student\n2.View All Student\n3.Add Course\n4.Enroll Student\n5.Mark Attendace\n6.Add Grades\n7.View Student Report\n8.Save Records\n9.Load Records\n10.Courses\n0.Exit")
         case = int(input("Choose an option: "))
         os.system("cls")
         match case:
@@ -316,7 +316,11 @@ if __name__== "__main__":
                 load(students)
                 print("Data Loaded Successfully")
                 os.system("pause")
+            
             case 10:
+                get_courses()
+                os.system("pause")
+            case 0:
                 save(students)
                 print("Data Saved Successfully")
                 os.system("pause")

@@ -1,6 +1,9 @@
 {
     "CS1001": "Programming Fundamentals",
-    "CS1002": "OOP",
+    "CS1002": "Object Oriented Programming",
     "CS1003": "Data Structures",
-    "CS1006": "Database Systems"
+    "CS1006": "Database Systems",
+    "CS1007": "Operating Systems",
+    "CS1042": "Generative AI",
+    "CS1041": "Natural Langauge Processing"
 }
